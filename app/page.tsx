@@ -1,5 +1,4 @@
 import Navbar from "@/components/ui/Navbar";
-import Image from "next/image";
 import {
   Card,
   CardContent,
