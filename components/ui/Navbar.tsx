@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className={"fixed inset-x-0 top-0 z-50  shadow-sm  text-white "}>
       <div className="w-full  px-4  py-2 ">
-        <div className="flex justify-between h-16 items-center border-opacity-20 rounded-[8px] 	border border-[#FFF]">
+        <div className="flex justify-between h-16 items-center border-opacity-20 rounded-[8px] px-2 	border border-[#FFF]">
           <div className=" rounded-[8px] bg-custom-gradient p-[2px]">
             <div className="flex px-2 h-[46px] w-[46px] items-center justify-center bg-[#000] rounded-[8px]">
               <svg
@@ -51,10 +51,50 @@ export default function Navbar() {
             ALPACA NETWORK
           </nav>
           <div className="flex items-center gap-4">
-            <Button variant="outline" size="sm">
-              Sign in
-            </Button>
-            <Button size="sm">Sign up</Button>
+            <div className=" rounded-[8px]  border-[#FFFFFF33] border-[2px]  p-[2px]">
+              <div className="flex px-2 h-[46px] w-[46px] items-center justify-center bg-[#000] rounded-[8px]">
+                <svg
+                  width="28"
+                  height="24"
+                  viewBox="0 0 28 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25.6133 0.872698C25.6133 0.872698 28.2033 -0.137302 27.9866 2.31536C27.9153 3.32536 27.268 6.8607 26.764 10.684L25.0373 22.0107C25.0373 22.0107 24.8933 23.67 23.5979 23.9587C22.3033 24.2467 20.3606 22.9487 20.0006 22.66C19.7126 22.4434 14.6046 19.1967 12.806 17.61C12.302 17.1767 11.726 16.3114 12.878 15.3014L20.4326 8.0867C21.2959 7.22003 22.1593 5.20003 18.562 7.65336L8.48862 14.5067C8.48862 14.5067 7.33729 15.2287 5.17929 14.5794L0.501952 13.136C0.501952 13.136 -1.22471 12.054 1.72529 10.972C8.92062 7.58136 17.7706 4.1187 25.6126 0.872032"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div className=" rounded-[8px]  border-[#FFFFFF33] border-[2px]  p-[2px]">
+              <div className="flex px-2 h-[46px] w-[46px] items-center justify-center bg-[#000] rounded-[8px]">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask0_1_37"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="24"
+                    height="24"
+                  >
+                    <path d="M0 0H24V24H0V0Z" fill="white" />
+                  </mask>
+                  <g mask="url(#mask0_1_37)">
+                    <path
+                      d="M18.9 1.12457H22.5806L14.5406 10.3371L24 22.8754H16.5943L10.7897 15.2726L4.15543 22.8754H0.471429L9.07029 13.0183L0 1.12629H7.59429L12.8331 8.07429L18.9 1.12457ZM17.6057 20.6674H19.6457L6.48 3.21772H4.29257L17.6057 20.6674Z"
+                      fill="white"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
       </div>

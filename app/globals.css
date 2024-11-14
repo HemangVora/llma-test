@@ -42,6 +42,7 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -74,7 +75,43 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  background-color: #000;
+}
+
+.background-image-div {
+  position: relative;
+  width: 100%;
+  /* Adjust as needed */
+
+
+}
+
+.background-image-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/card-bg-2.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  /* Adjust opacity here */
+  z-index: -1;
+  /* Keep it behind the content */
+}
+
+.background-image-div p {
+  position: relative;
+  z-index: 1;
+  color: white;
+  /* Add other styles for content */
 }
